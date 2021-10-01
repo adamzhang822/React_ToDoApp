@@ -23,7 +23,7 @@ Download the project file (either cloning the repository or download the Zip fil
 The server listens on port 3030, so if you have processes already running on port 3030, either kill the process (if on mac, type the following): 
 
     >>> lsof -i :3030
-    ... kill $(lsof -t -i :8080) 
+    ... kill $(lsof -t -i :3030) 
 
 The first line will tell you which process id of applications already running on port 3030, and the second line kills that process for you
 
